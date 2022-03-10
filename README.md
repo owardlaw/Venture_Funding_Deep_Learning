@@ -1,8 +1,6 @@
 # Venture_Funding_Deep_Learning
 
-# Fintech_Finder
-A streamlit application to find, hire, and send funds to workers with Ether on a testnet. 
-
+A deep learning application for risk management for a VC fund.  
 
 ## Technologies
 
@@ -15,6 +13,10 @@ This project leverages python3 with the following packages:
 
 * [sklearn](https://scikit-learn.org/stable/install.html) - For machine learning. 
 
+* [pathlib](https://pypi.org/project/pathlib/) - For machine learning. 
+
+* [jupyterlab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) - For viewing code in module format.  
+
 ---
 
 ## Installation Guide
@@ -22,10 +24,13 @@ This project leverages python3 with the following packages:
 pip install pandas 
 pip install tensorflow
 pip install -U scikit-learn
+pip install pathlib
+pip install jupyterlab
+
 ```
 ## Usage
 
-Upload file to Google Colab and proceed with running each module. For module two, the user is prompted to upload a CSV, do so and continue with the modules. Note the training the module will take some time and the progress can be seen visually. 
+CD to the correct directory and start jupyter lab. Proceed to run through the modules and train the ML model.
 
 ---
 
