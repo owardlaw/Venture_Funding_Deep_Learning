@@ -18,7 +18,7 @@ This project leverages python3 with the following packages:
 ---
 
 ## Installation Guide
-
+---
 pip install pandas 
 pip install tensorflow
 pip install -U scikit-learn
